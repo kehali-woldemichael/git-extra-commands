@@ -1,11 +1,11 @@
 altgraph @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot1/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/altgraph-0.17.2-py2.py3-none-any.whl
-ansible==9.0.1
-ansible-core==2.16.0
-attrs==23.1.0
-black==23.11.0
+ansible==9.1.0
+ansible-core==2.16.2
+attrs==23.2.0
+black==23.12.1
 blessed==1.20.0
-boto3==1.29.0
-botocore==1.31.57
+boto3==1.34.6
+botocore==1.34.11
 certifi==2023.11.17
 cffi==1.16.0
 charset-normalizer==3.3.2
@@ -14,9 +14,9 @@ codenamize==1.2.3
 colorama==0.4.6
 cryptography==41.0.7
 Deprecated==1.2.14
-docker==6.1.3
+docker==7.0.0
 docopt==0.6.2
-fastjsonschema==2.18.1
+fastjsonschema==2.19.1
 future @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot1/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/future-0.18.2-py3-none-any.whl
 gitdb==4.0.11
 github3.py==4.0.1
@@ -26,17 +26,17 @@ inquirer==3.1.4
 Jinja2==3.1.2
 jmespath==1.0.1
 jsonschema==4.20.0
-jupyter_core==5.5.0
+jupyter_core==5.5.1
 macholib @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot1/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/macholib-1.15.2-py2.py3-none-any.whl
 MarkupSafe==2.1.3
-moto==4.2.6
+moto==4.2.13
 mypy-extensions==1.0.0
 nbformat==5.9.2
 packaging==23.2
-pathspec==0.11.2
+pathspec==0.12.1
 pigar==2.1.1
 pipreqs==0.4.13
-platformdirs==4.0.0
+platformdirs==4.1.0
 pycparser==2.21
 PyGithub==2.1.1
 PyJWT==2.8.0
@@ -50,13 +50,13 @@ PyYAML==6.0.1
 readchar==4.0.5
 requests==2.31.0
 resolvelib==1.0.1
-responses==0.24.0
-s3transfer==0.8.0
+responses==0.24.1
+s3transfer==0.10.0
 six @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot1/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-124/six-1.15.0-py2.py3-none-any.whl
 smmap==5.0.1
 toml==0.10.2
 tomli==2.0.1
-traitlets==5.13.0
+traitlets==5.14.0
 types-toml==0.10.8.7
 typing_extensions==4.8.0
 uritemplate==4.1.1
