@@ -8,4 +8,4 @@ repoName="${$(basename $url):r}"
 finalPath="$tarDir/$repoName"
 
 
-exec git submodule add -b "$branch" "$url" "$finalPath"
+exec git submodule add --force -b "$branch" "$url" "$finalPath"
