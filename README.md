@@ -162,6 +162,8 @@ If you wrote one of these scripts and want it removed from this collection, plea
 | `git-sp` | A. Schwarz's [git-sp](https://github.com/Schwarzy1/git-sp) | "Simple push", single short command to commit, and push. Use `-a` flag to add all files to commit. |
 | `git-sr` | Noel Cower's [git-sr](https://gist.github.com/nilium/2829f6690ad888c25660c15ba3a7c59c) | Use `fzf` to switch to a different `git` ref. |
 | `git-stats` | Jake Zimmerman's [blog](https://blog.jez.io/cli-code-review/) | Displays stats for the files different between the current branch and `$REVIEW_BRANCH`, which if unset defaults to the repository's default branch. |
+| `git-submodule-ls` | | List all submodules in your project |
+| `git-submodule-paths` | `git-submodule --help` | Show path to all submodules in your checkout, with their current commit SHA |
 | `git-submodule-rm` | Greg V's [dotfiles](https://github.com/myfreeweb/dotfiles) & [Pascal Sommer](https://github.com/pascal-so/) | Allows you to remove a submodule easily with `git submodule-rm path/to/submodule`. |
 | `git-superpull` | Greg V's [vmware-archive/git_scripts](https://github.com/vmware-archive/git_scripts) | Pulls, then does a `git submodule init` and `git submodule update`. |
 | `git-switch-branch` | Andrew Steele's [dotfiles](https://github.com/Andrew565/dotfiles) | Make it easier to switch to a branch by a substring of its name. More useful if you are good about deleting branches which have been merged upstream and if your branch names include unique identifiers like ticket/issue numbers or feature names. |
@@ -262,7 +264,7 @@ If you aren't using any ZSH frameworks, or if you're using `bash`, `fish` or ano
 - [Git Exercises](https://jvns.ca/blog/2019/08/30/git-exercises--navigate-a-repository/) is a great blog post by Julia Evans. She also covers some other miscellaneous `git` facts [here](https://jvns.ca/blog/2023/10/20/some-miscellaneous-git-facts/).
 - [Git From the Inside Out](https://maryrosecook.com/blog/post/git-from-the-inside-out) explains how `git` works, focusing on the graph structure underpinnings of `git` and how they affect its behavior.
 - [Git Log Customization](https://www.justinjoyce.dev/customizing-git-log-format/) - Good tutorial about customizing the format of `git log`.
-- [Git Rebase in Depth](https://git-rebase.io/) is a good tutorial on `git rebase` that covers the common use cases for rebasing.
+- [Git Rebase in Depth](http://archive.today/9MpWr) is a good tutorial on `git rebase` that covers the common use cases for rebasing.
 - [Git Rebase: What Can Go Wrong](https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-/) - Another good explanation by Julia Evans.
 - [Git Spelunking with Bisect](https://erikarow.land/notes/git-spelunking-bisect) - A brief introduction to `git bisect`.
 - [Git Submodules Revisted](https://dev.to/dwd/git-submodules-revisited-1p54) is a good article by Dave Cridland on using submodules in your code.
@@ -284,7 +286,6 @@ If you aren't using any ZSH frameworks, or if you're using `bash`, `fish` or ano
 - [git-tips/tips](https://github.com/git-tips/tips) is a collection of `git` tips.
 - [git-tips](http://mislav.net/2010/07/git-tips/) by Mislav Marohnić is a good article on `git` tips. Several of his `git` scripts are in this collection.
 - [gitimmersion.com/](http://gitimmersion.com/) is a guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it.
-- [gitready.com/](http://gitready.com/) is a great reference which has been collecting information and tips for `git` since 2009.
 - [learnenough.com](http://www.learnenough.com/git-tutorial) has a more detailed `git` tutorial on
 - [“Git” it together: Some tips on commit etiquette and best practices for junior developers](https://hackernoon.com/git-it-together-some-tips-on-commit-etiquette-and-best-practices-for-junior-developers-1f147b8dfd56) is a good article explaining some best practices on how to write a _good_ commit message, no matter what source control system you're using.
 
@@ -295,7 +296,8 @@ If you aren't using any ZSH frameworks, or if you're using `bash`, `fish` or ano
 - [blackbox](https://github.com/StackExchange/blackbox) - Tom Limoncelli open sourced the tool they use at Stack Exchange to use GPG to store secrets in a `git` repository.
 - [branch-manager](https://github.com/elstgav/branch-manager) - ZSH plugin for branch management
 - [commit-helper](https://github.com/andre-filho/commit-helper) - A python script that helps you write commits following commit conventions.
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Better looking `git` diffs
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Better looking `git` diffs.
+- [dunk](https://github.com/darrenburns/dunk) - Another tool for prettier `git` diffs.
 - [gig](https://dev.to/shihanng/gig-a-gitignore-generator-opc) - a CLI `.gitignore` generator
 - [git ZSH plugin](https://github.com/davidde/git) - A replacement for the stock oh-my-zsh `git` plugin. Provides quite a few useful aliases and functions that are more consistent in their naming that the relatively unintuitive ones in the stock plugin.
 - [git-absorb](https://github.com/tummychow/git-absorb) - Essentially, when your working directory has uncommitted changes on top of draft changesets, you can run `git absorb` and the uncommitted modifications are automagically folded ("absorbed") into the appropriate draft ancestor commits. The command essentially looks at the lines that were modified, finds a commit modifying those lines, and amends that commit to include your uncommitted changes. If the changes can't be made without conflicts, they remain uncommitted. This workflow is insanely useful for things like applying review feedback.
