@@ -35,9 +35,9 @@
 
 **git-extra-commands** is a ZSH plugin that packages some extra `git` helper scripts I've found. This collection (and the scripts that I wrote in it) is licensed with the Apache Version 2 license.
 
-However, some of the scripts in this collection came from other sources and may have different licensing - if they do, their license information is included inline in the script source.
-
 This collection doesn't actually require ZSH, but packaging it as a ZSH plugin makes it more convenient for people using a ZSH framework to use this collection.
+
+However, some of the scripts in this collection came from other sources and may have different licensing - if they do, their license information is included inline in the script source.
 
 If you wrote one of these scripts and want it removed from this collection, please either make a PR and/or file an issue against the repository and I will remove it.
 
@@ -277,6 +277,7 @@ If you aren't using any ZSH frameworks, or if you're using `bash`, `fish` or ano
 - [Oh Shit, Git!](http://ohshitgit.com/) has a collection of bad situations explained in plain English and how to get yourself out of them . When you manage to get your `git` working directory in a sad state, you can run into the chicken-egg problem where if you just knew what command to `man`, you could dig yourself out of the hole, but if you knew that, you wouldn't be in the bad place anyway.
 - [Platform Specific Gitconfigs and the Wonderful includeif](https://medium.com/doing-things-right/platform-specific-gitconfigs-and-the-wonderful-includeif-7376cd44994d) by Mike Mackintosh explains how to have different gitconfig settings based on what platform you're on or what directory you're in. Makes it easier to have personal and work repos on the same machine.
 - [Pro Git](http://git-scm.com/book) by Scott Chacon is a great resource for getting more out of `git`.
+- [So You Think You Know Git?](https://www.youtube.com/watch?v=aolI_Rz0ZqY) - Scott Chacon's FOSDEM 2024 talk on Git Tips and Tricks.
 - [The Git Pickaxe](http://www.philandstuff.com/2014/02/09/git-pickaxe.html) explains how you can use the `git` pickaxe to search easily for strings in commit messages - write good commit messages and it'll be easier to find the commits that actually implement changes.
 - [Top ten pull request review mistakes](https://blog.scottnonnenberg.com/top-ten-pull-request-review-mistakes/) is a great article by Scott Nonnenberg on how to do better code reviews on PRs.
 - [Tracking diffs by scoping to file, range, function, method, or class changes in Git](https://susanpotter.net/software/tracking-diffs-by-scoping-to-file-range-function-method-or-class-changes-in-git/) is a great article by Susan Potter about making `git` show file-specific diffs, or even function-specific diffs in a language-aware way.
