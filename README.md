@@ -1,6 +1,6 @@
 # git-extra-commands
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/license/Apache-2.0)
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Funixorn%2Fgit-extra-commands%2Fbadge%3Fref%3Dmain&style=plastic)](https://actions-badge.atrox.dev/unixorn/git-extra-commands/goto?ref=main)
 ![Awesomebot](https://github.com/unixorn/git-extra-commands/actions/workflows/awesomebot.yml/badge.svg)
 ![Megalinter](https://github.com/unixorn/git-extra-commands/actions/workflows/mega-linter.yml/badge.svg)
@@ -45,6 +45,7 @@ If you wrote one of these scripts and want it removed from this collection, plea
 
 | Script | Original Source | Description |
 | ------ | --------------- | ----------- |
+| `git-add-match` | [Git: programmatic staging](https://choly.ca/post/git-programmatic-staging/) | Allows you to use `expect` to automatically stage hunks matching a search term |
 | `git-add-username-remote` | Ryan Tomayko's dotfiles | Adds a remote for the current repository for the given GitHub username. |
 | `git-age` | Kristoffer Gronlund's [wiki](https://github.com/krig/git-age/wiki) | A git-blame viewer, written using PyGTK. |
 | `git-amend-all` | John Wiegley's [git scripts](https://github.com/jwiegley/git-scripts) | Adds all modified and deleted files, except the new files and adds them to the recent commit by amending it. |
